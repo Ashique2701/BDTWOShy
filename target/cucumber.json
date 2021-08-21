@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Verify search result display",
+        "description": "",
+        "id": "home-page;verify-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7836536300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "SteepDefiniHomePage.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589664100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter XPS in Searchfiled",
+            "match": {
+              "location": "SteepDefiniHomePage.enter_XPS_in_Searchfiled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5544026400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Searchlink",
+            "match": {
+              "location": "SteepDefiniHomePage.click_on_Searchlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 792335300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify search results display",
+            "match": {
+              "location": "SteepDefiniHomePage.verify_search_results_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "homebdtwo.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "login;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4371043200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "SteepDefiniHomePage.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265981000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Singinbutton",
+            "match": {
+              "location": "SteepDefiniLoginPage.click_on_Singinbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6389132900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Signinlink",
+            "match": {
+              "location": "SteepDefiniLoginPage.click_on_Signinlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 985337500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter user name and pass and click signin",
+            "match": {
+              "location": "SteepDefiniLoginPage.enter_user_name_and_pass_and_click_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3647653300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Signin",
+            "match": {
+              "location": "SteepDefiniLoginPage.verify_Signin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "logintwo.feature"
+  }
+]
